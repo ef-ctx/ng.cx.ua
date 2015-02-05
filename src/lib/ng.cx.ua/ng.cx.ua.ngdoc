@@ -1,0 +1,5 @@
+@ngdoc overview
+@name ng.cx.ua
+@description
+
+Minimal AngularJS browser detection service.

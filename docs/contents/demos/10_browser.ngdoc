@@ -1,0 +1,43 @@
+@ngdoc overview
+@name browser detection
+@description
+
+## browser detection
+
+Output of all tests for the current user agent.
+
+<doc:example module="exampleApp" height="500">
+    <doc:source>
+        <script>
+            angular.module('exampleApp', ['ng.cx.ua'])
+            .controller('exampleCtrl', ['$scope', 'cxUA', function ($scope, cxUA) {
+                $scope.browser = cxUA;
+            }]);
+        </script>
+        <style>
+            form {
+                padding: 10px;
+            }
+        </style>
+        <div data-ng-controller="exampleCtrl">
+            <form name="exampleForm">
+                <p><strong>userAgent:</strong> {{browser.userAgent}}</p>
+                <p><strong>isChrome:</strong> {{browser.isChrome}}</p>
+                <p><strong>isFirefox:</strong> {{browser.isFirefox}}</p>
+                <p><strong>isGecko:</strong> {{browser.isGecko}}</p>
+                <p><strong>isKindle:</strong> {{browser.isKindle}}</p>
+                <p><strong>isMobile:</strong> {{browser.isMobile}}</p>
+                <p><strong>isOpera:</strong> {{browser.isOpera}}</p>
+                <p><strong>isSafari:</strong> {{browser.isSafari}}</p>
+                <p><strong>isTablet:</strong> {{browser.isTablet}}</p>
+                <p><strong>isTV:</strong> {{browser.isTV}}</p>
+                <p><strong>isWebKit:</strong> {{browser.isWebKit}}</p>
+                <p><strong>isAndroid:</strong> {{browser.isAndroid}}</p>
+                <p><strong>isIOS:</strong> {{browser.isIOS}}</p>
+                <p><strong>isIPad:</strong> {{browser.isIPad}}</p>
+                <p><strong>isIPhone:</strong> {{browser.isIPhone}}</p>
+                <p><strong>isIPod:</strong> {{browser.isIPod}}</p>
+            </form>
+        </div>
+    </doc:source>
+</doc:example>

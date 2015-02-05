@@ -1,0 +1,28 @@
+{
+  "generator-nglib": {
+    "github.username": "ef-ctx",
+    "license.name": "MIT",
+    "license.url": "https://raw.githubusercontent.com/EFEducationFirstMobile/oss/master/LICENSE",
+    "author.name": "EF CTX",
+    "author.email": "ctx@ef.com",
+    "author.url": "http://ef.com",
+    "has.sass": false,
+    "use.travis": true,
+    "project.name": "ng.cx.ua",
+    "project.description": "Minimal AngularJS browser detection service.",
+    "bower.id": "ng.cx.ua",
+    "npm.id": "ng.cx.ua",
+    "angular.module": "ng.cx.ua",
+    "has.tpl": false,
+    "has.css": false,
+    "has.less": false,
+    "has.docs": true,
+    "use.git": true,
+    "github.reponame": "ng.cx.ua",
+    "homepage.url": "https://github.com/ef-ctx/ng.cx.ua",
+    "docs.url": "https://github.com/ef-ctx/ng.cx.ua",
+    "bugs.url": "https://github.com/ef-ctx/ng.cx.ua/issues",
+    "travis.id": "ef-ctx/ng.cx.ua",
+    "repo.url": "git@github.com:ef-ctx/ng.cx.ua.git"
+  }
+}
