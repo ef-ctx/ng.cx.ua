@@ -1,7 +1,7 @@
 {
   "name": "ng.cx.ua",
   "version": "0.0.1",
-  "description": "AngularJS service(s) for browser detection, scope and digest friendly.",
+  "description": "AngularJS service(s) for browser detection. Digest friendly.",
   "author": {
     "name": "EF CTX",
     "url":  "http://ef.com"

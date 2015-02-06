@@ -7,12 +7,15 @@
 [![Build Status: Linux](http://img.shields.io/travis/ef-ctx/ng.cx.ua/master.svg?style=flat-square)](https://travis-ci.org/ef-ctx/ng.cx.ua)
 [![Bower version](http://img.shields.io/bower/v/ng.cx.ua.svg?style=flat-square)](git@github.com:ef-ctx/ng.cx.ua.git)
 
-> AngularJS service for browser detection, scope and digest friendly.
+> AngularJS service(s) for browser detection, scope and digest friendly.
 
 Patterns were taken from https://github.com/g13n/ua.js/blob/master/src/ua.js but implementation was optimized for minimal
 foot-print and overhead:
 - RegExps are created only if invoked
 - Results cached, only detects once
+
+Unit tests cover 300+ real world UA strings. This exercise proves the point that UA detection has severe limitations
+and you should do feature detection instead.
 
 ## Getting Started
 
