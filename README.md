@@ -22,12 +22,6 @@ Via bower:
 $ bower install --save ng.cx.ua
 ```
 
-Via npm:
-
-```
-$ npm install --save ng.cx.ua
-```
-
 Include the following JS in your build.
 - dist/ng.cx.ua.js OR dist/ng.cx.ua.min.js
 
