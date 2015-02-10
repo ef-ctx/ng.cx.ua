@@ -2,4 +2,9 @@
 @name ng.cx.ua
 @description
 
-Minimal AngularJS browser detection service.
+> Minimal AngularJS browser detection service.
+
+
+# Dependencies
+
+- None

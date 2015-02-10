@@ -4,6 +4,12 @@
 
 # ng.cx.ua API Reference
 
-Welcome to the **ng.cx.ua** API reference.
+> Welcome to the **ng.cx.ua** API reference.
 
-If you want to know how **ng.cx.ua** works, checkout the {@link guide/ guide} and the {@link demos/ demos}
+If you want to know how **ng.cx.ua** works, checkout the {@link guide/ guide} and the {@link demos/ demos}.
+
+
+## Modules
+
+- **[ng.cl.ua](#/api/ng.cl.ua)** - Provides a service to perform user agent detection.
+
