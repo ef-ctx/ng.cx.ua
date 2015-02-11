@@ -12,6 +12,7 @@ foot-print and overhead:
 Unit tests cover 300+ real world UA strings. This exercise proves the point that UA detection has severe limitations
 and you should do feature detection instead.
 
+
 ## Getting Started
 
 Add **ng.cx.ua** to you project.
